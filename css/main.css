@@ -1,9 +1,32 @@
-nav{
-    background-color: rgba(118, 99, 201, 0.527);
-}
 .nav-item {
-    color: white !important;
+    text-decoration: none !important;
+    color: red !important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+img{
+    margin: 20px;
+    width: 350px;
+    height: 100%;
+}
+h1{
+    padding: auto;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
 
+.col{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:red !important;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+p{
+    margin-top: 40px;
+}
