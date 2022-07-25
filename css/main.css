@@ -10,7 +10,7 @@
 }
 /* transiciones */
 .nav-link:hover {
-    font-size: 3rem;
+    font-size: 2rem;
     transform: rotateX(30deg);
     background-color: rgb(8, 8, 8) !important;
     color: rgb(250, 252, 250) !important;
@@ -34,7 +34,6 @@
 @keyframes fade-in { 
     0%
     {transform: translateY(-300px);
-    
     }
     50%
     {transform: translateY(-50px);    
@@ -84,10 +83,16 @@ h2{
 }
 .carrousel{
     margin-top: 5rem;
-
 }
 .container{
-    margin-top: 1.8rem;
+    margin-top: 2rem;
+}
+.containerf{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 20rem;
     margin-bottom: 1.8rem;
 }
 .you{
@@ -101,4 +106,21 @@ h2{
     transform:rotateY(40deg);
     width: 120px;
     height: 120px
+}
+.destacados{
+    margin-top: 2rem;
+    padding: auto;
+}
+.tw{
+    width: 400px;
+    height: 100%;
+    margin: 2rem;
+    padding: 2rem;
+}
+.tw1{
+    width: 200px;
+    height: 100%;
+}
+.redes{
+    margin-top: 2rem;
 }
