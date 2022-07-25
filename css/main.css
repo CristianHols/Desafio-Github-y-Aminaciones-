@@ -1,16 +1,18 @@
-.nav-item {
-    text-decoration: none !important;
+.contnav {
     color: red !important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1.8rem;
+    padding: auto;
 }
 img{
     margin: 20px;
-    width: 350px;
+    width: 400px;
     height: 100%;
 }
 h1{
-    padding: auto;
+    padding: 1rem;
     margin: 5px;
     background-color: red;
     color: white;
@@ -24,9 +26,34 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color:red !important;
     text-align: center;
-    align-items: center;
     font-weight: bold;
 }
 p{
     margin-top: 40px;
+    font-size: 1.3rem;
+}
+.enc{
+    margin-bottom: 6rem;
+}
+h2{
+    padding: 1rem;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.carrousel{
+    margin-top: 5rem;
+
+}
+.container{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+.you{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
 }
