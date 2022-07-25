@@ -1,16 +1,55 @@
-.nav-item {
-    text-decoration: none !important;
+.nav-link {
     color: red !important;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1.8rem;
+    padding: auto;
+    transition: .5s ease;
+
+}
+/* transiciones */
+.nav-link:hover {
+    font-size: 2rem;
+    transform: rotateX(30deg);
+    background-color: rgb(8, 8, 8) !important;
+    color: rgb(250, 252, 250) !important;
+}
+.logo {
+    margin: 5px;
+    width: 200px;
+    height: 100%;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.6s;
+    animation-timing-function: ease;
+}
+.contnav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* animaciones */
+@keyframes fade-in { 
+    0%
+    {transform: translateY(-300px);
+    }
+    50%
+    {transform: translateY(-50px);    
+    }
+    100%
+    {transform: translateY(-0px);
+    }
 }
 img{
     margin: 20px;
-    width: 350px;
+    width: 400px;
     height: 100%;
 }
+
 h1{
-    padding: auto;
+    padding: 1rem;
     margin: 5px;
     background-color: red;
     color: white;
@@ -24,9 +63,64 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color:red !important;
     text-align: center;
-    align-items: center;
     font-weight: bold;
 }
 p{
     margin-top: 40px;
+    font-size: 1.3rem;
+}
+.enc{
+    margin-bottom: 6rem;
+}
+h2{
+    padding: 1rem;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.carrousel{
+    margin-top: 5rem;
+}
+.container{
+    margin-top: 2rem;
+}
+.containerf{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-bottom: 1.8rem;
+}
+.you{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    transition: .7s ease;
+}
+/* transiciones */
+.you:hover{
+    transform:rotateY(40deg);
+    width: 120px;
+    height: 120px
+}
+.destacados{
+    margin-top: 2rem;
+    padding: auto;
+}
+.tw{
+    width: 400px;
+    height: 100%;
+    margin: 2rem;
+    padding: 2rem;
+}
+.tw1{
+    width: 200px;
+    height: 100%;
+}
+.redes{
+    margin-top: 2rem;
 }
